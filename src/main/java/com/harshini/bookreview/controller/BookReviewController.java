@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/reviews")
-@CrossOrigin(origins = "http://34.136.172.142") // apply once at class level
+@CrossOrigin(origins = "*") // apply once at class level
 public class BookReviewController {
 
     @Autowired
